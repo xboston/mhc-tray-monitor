@@ -1,6 +1,6 @@
 # RaiMoon
 
-![](https://d2ffutrenqvap3.cloudfront.net/items/0O0F1R3C1j3p13103i1F/Screen%20Shot%202017-12-28%20at%2010.14.19%20PM.png?v=476779c8)
+![](https://d2ffutrenqvap3.cloudfront.net/items/3E0z1J1E362n3y2x2g0z/Screen%20Shot%202017-12-28%20at%2011.04.16%20PM.png?v=e6b57b8f)
 
 Current XRB price in ya menu bar, gets price every 60s from [coinmarketcap](https://coinmarketcap.com).
 
