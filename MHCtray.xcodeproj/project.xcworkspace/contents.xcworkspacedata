@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RaiMoon.xcodeproj">
+      location = "self:MHCtray.xcodeproj">
    </FileRef>
 </Workspace>

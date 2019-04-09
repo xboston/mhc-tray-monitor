@@ -30,12 +30,12 @@
 
 /* Begin PBXFileReference section */
 		3020848A1FF60BD300F3EDCB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		304F00311FF6030100A51ED2 /* RaiMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304F00311FF6030100A51ED2 /* MHCtray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHCtray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304F00341FF6030100A51ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304F00381FF6030100A51ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304F003B1FF6030100A51ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304F003D1FF6030100A51ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		304F003E1FF6030100A51ED2 /* RaiMoon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RaiMoon.entitlements; sourceTree = "<group>"; };
+		304F003E1FF6030100A51ED2 /* MHCtray.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MHCtray.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				3020848A1FF60BD300F3EDCB /* Alamofire.framework */,
-				304F00331FF6030100A51ED2 /* RaiMoon */,
+				304F00331FF6030100A51ED2 /* MHCtray */,
 				304F00321FF6030100A51ED2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,29 +62,29 @@
 		304F00321FF6030100A51ED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				304F00311FF6030100A51ED2 /* RaiMoon.app */,
+				304F00311FF6030100A51ED2 /* MHCtray.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		304F00331FF6030100A51ED2 /* RaiMoon */ = {
+		304F00331FF6030100A51ED2 /* MHCtray */ = {
 			isa = PBXGroup;
 			children = (
 				304F00341FF6030100A51ED2 /* AppDelegate.swift */,
 				304F00381FF6030100A51ED2 /* Assets.xcassets */,
 				304F003A1FF6030100A51ED2 /* Main.storyboard */,
 				304F003D1FF6030100A51ED2 /* Info.plist */,
-				304F003E1FF6030100A51ED2 /* RaiMoon.entitlements */,
+				304F003E1FF6030100A51ED2 /* MHCtray.entitlements */,
 			);
-			path = RaiMoon;
+			path = MHCtray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304F00301FF6030100A51ED2 /* RaiMoon */ = {
+		304F00301FF6030100A51ED2 /* MHCtray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 304F00411FF6030100A51ED2 /* Build configuration list for PBXNativeTarget "RaiMoon" */;
+			buildConfigurationList = 304F00411FF6030100A51ED2 /* Build configuration list for PBXNativeTarget "MHCtray" */;
 			buildPhases = (
 				304F002D1FF6030100A51ED2 /* Sources */,
 				304F002E1FF6030100A51ED2 /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = RaiMoon;
-			productName = RaiMoon;
-			productReference = 304F00311FF6030100A51ED2 /* RaiMoon.app */;
+			name = MHCtray;
+			productName = MHCtray;
+			productReference = 304F00311FF6030100A51ED2 /* MHCtray.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 304F002C1FF6030100A51ED2 /* Build configuration list for PBXProject "RaiMoon" */;
+			buildConfigurationList = 304F002C1FF6030100A51ED2 /* Build configuration list for PBXProject "MHCtray" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				304F00301FF6030100A51ED2 /* RaiMoon */,
+				304F00301FF6030100A51ED2 /* MHCtray */,
 			);
 		};
 /* End PBXProject section */
@@ -279,16 +279,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RaiMoon/RaiMoon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MHCtray/MHCtray.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = RaiMoon/Info.plist;
+				INFOPLIST_FILE = MHCtray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.dannytatom.RaiMoon;
+				PRODUCT_BUNDLE_IDENTIFIER = me.dannytatom.MHCtray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -298,16 +298,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RaiMoon/RaiMoon.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MHCtray/MHCtray.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = RaiMoon/Info.plist;
+				INFOPLIST_FILE = MHCtray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.dannytatom.RaiMoon;
+				PRODUCT_BUNDLE_IDENTIFIER = me.dannytatom.MHCtray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		304F002C1FF6030100A51ED2 /* Build configuration list for PBXProject "RaiMoon" */ = {
+		304F002C1FF6030100A51ED2 /* Build configuration list for PBXProject "MHCtray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304F003F1FF6030100A51ED2 /* Debug */,
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		304F00411FF6030100A51ED2 /* Build configuration list for PBXNativeTarget "RaiMoon" */ = {
+		304F00411FF6030100A51ED2 /* Build configuration list for PBXNativeTarget "MHCtray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				304F00421FF6030100A51ED2 /* Debug */,

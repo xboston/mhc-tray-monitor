@@ -1,9 +1,11 @@
 //
 //  AppDelegate.swift
-//  RaiMoon
+//  MHCtray
+//  MHC tray monitor
 //
 //  Created by Danny Tatom on 12/28/17.
 //  Copyright © 2017 Danny Tatom. All rights reserved.
+//  Copyright © 2019 Nikolay Kirsh. All rights reserved.
 //
 
 import Cocoa
@@ -55,13 +57,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func fetchPrice() {
         print("Fetching price...")
         
-        Alamofire.request("https://api.coinmarketcap.com/v1/ticker/raiblocks/").responseJSON { response in
+        Alamofire.request("https://api.coinmarketcap.com/v1/ticker/metahash/").responseJSON { response in
             if let data = response.result.value {
                 if  (data as? [[String : AnyObject]]) != nil {
                     if let dictionaryArray = data as? Array<Dictionary<String, AnyObject?>> {
                         let usd = dictionaryArray[0]["price_usd"] as? String
                         
-                        self.item?.title = "XRB $\(usd ?? "???")"
+                        self.item?.title = "MHC $\(usd ?? "???")"
                         
                         self.btc?.title = "\(dictionaryArray[0]["price_btc"] as? String ?? "???") BTC"
                         self.percentChange1h?.title = "1h    \(dictionaryArray[0]["percent_change_1h"] as? String ?? "???")%"
